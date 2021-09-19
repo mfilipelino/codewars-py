@@ -26,11 +26,10 @@ def done_or_not(board):
                 numbers[8].add(board[i][j])
 
         if len(numbers_horinzotal) != 9 or len(numbers_vertical) != 9:
-            return 'Try again!'
+            return "Try again!"
 
     for e in numbers:
         if len(e) != 9:
-            return 'Try again!'
+            return "Try again!"
 
-    return 'Finished!'
-
+    return "Finished!"

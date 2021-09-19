@@ -7,10 +7,9 @@ def to_camel_case(text):
             c = c.upper()
             upper = False
 
-        if c == '-' or c == '_':
+        if c == "-" or c == "_":
             upper = True
         else:
             result.append(c)
 
-    return ''.join(result)
-
+    return "".join(result)

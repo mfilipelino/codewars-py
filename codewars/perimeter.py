@@ -8,4 +8,3 @@ def perimeter(n):
             b = next
             s += next
     return s * 4
-

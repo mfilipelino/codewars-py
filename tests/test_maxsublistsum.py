@@ -7,4 +7,3 @@ def test_base():
     assert find_max_sum_sublist([1, 6, -2]) == 7
     assert find_max_sum_sublist([1, -6, -2]) == 1
     assert find_max_sum_sublist([-1, -6, -2]) == -1
-

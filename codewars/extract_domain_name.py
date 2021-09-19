@@ -4,9 +4,9 @@ def domain_name(url):
     :param url:
     :return:
     """
-    return url.replace('https://', '').replace('http://', '').replace('www.', '').split('.')[0]
-
-
-
-
-
+    return (
+        url.replace("https://", "")
+        .replace("http://", "")
+        .replace("www.", "")
+        .split(".")[0]
+    )
