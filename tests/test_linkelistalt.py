@@ -17,4 +17,3 @@ def test_print_all_2():
     linked_list.print_all()
     rotate_list(linked_list, -2)
     linked_list.print_all()
-

@@ -1,5 +1,4 @@
 class Node(object):
-
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
@@ -7,13 +6,12 @@ class Node(object):
     def __str__(self):
         return str(self.value)
 
-class LinkedList(object):
 
+class LinkedList(object):
     def __init__(self):
         self.head = None
         self.tail = None
         self.size = 0
-
 
     def add(self, node):
         self.size += 1
@@ -24,7 +22,6 @@ class LinkedList(object):
             self.tail.next = node
             self.tail = node
 
-
     def print_all(self):
         node = self.head
         print()
@@ -33,7 +30,6 @@ class LinkedList(object):
             node = node.next
         print(str(node), end=" ")
         print()
-
 
 
 def rotate_list(lst, k):

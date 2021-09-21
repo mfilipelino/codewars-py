@@ -56,6 +56,7 @@ def print_singly_linked_list(node):
 #
 #
 
+
 def insertNodeAtPosition(head, data, position):
     new_node = SinglyLinkedListNode(data)
     if position == 0 and head is None:

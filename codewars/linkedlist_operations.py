@@ -47,4 +47,3 @@ def find_nth(lst, n):
     for _ in range(0, size - n, 1):
         node = node.next_element
     return node.data
-

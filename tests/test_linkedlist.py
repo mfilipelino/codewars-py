@@ -1,4 +1,8 @@
-from codewars.linkedlist import SinglyLinkedList, insertNodeAtPosition, print_singly_linked_list
+from codewars.linkedlist import (
+    SinglyLinkedList,
+    insertNodeAtPosition,
+    print_singly_linked_list,
+)
 
 
 def test_insert_node_at_position():
@@ -7,4 +11,3 @@ def test_insert_node_at_position():
         llist.insert_node(i)
     head = insertNodeAtPosition(llist.head, 4, 2)
     print_singly_linked_list(head)
-
