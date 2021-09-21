@@ -1,18 +1,6 @@
 from codewars.linkedlist import LinkedList
 
 
-# Access head_node => list.get_head()
-# Check if list is empty => list.is_empty()
-# Delete at head => list.delete_at_head()
-# Delete by value => list.delete(value)
-# Search for element => list.search()
-# Length of the list => list.length()
-# Remove duplicates => list.remove_duplicates()
-# Node class  {int data ; Node next_element;}
-
-# Returns a list containing the union of list1 and list2
-
-
 def union(list1, list2):
     list3 = LinkedList()
 
@@ -59,3 +47,4 @@ def find_nth(lst, n):
     for _ in range(0, size - n, 1):
         node = node.next_element
     return node.data
+
