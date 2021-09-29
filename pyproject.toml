@@ -8,6 +8,7 @@ authors = ["mfilipelino <mfilipelino@gmail.com>"]
 python = "^3.8"
 ipython = "^7.27.0"
 black = "^21.9b0"
+nox = "^2021.6.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
