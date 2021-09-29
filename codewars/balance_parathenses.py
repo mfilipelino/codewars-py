@@ -1,5 +1,4 @@
 class Stack:
-
     def __init__(self):
         self.lst = []
 
@@ -31,19 +30,15 @@ def balanced(s):
     return stack.is_empty()
 
 
-
-def recursive_balanced(s, index = 0, open = 0):
+def recursive_balanced(s, index=0, open=0):
 
     if index == len(s):
         return open == 0
 
     if open < 0:
         return False
-    
+
     if s[index] == "(":
-        return recursive_balanced(s, index + 1, open + 1 )
+        return recursive_balanced(s, index + 1, open + 1)
     else:
         return recursive_balanced(s, index + 1, open - 1)
-
-
-
